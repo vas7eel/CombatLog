@@ -93,11 +93,13 @@ configuration, saved automatically to `CombatLog_prefs.json`.
 
 Older versions are listed in the full changelog inside [`CombatLog/README.txt`](CombatLog/README.txt).
 
-## Bugs & feature requests
+## Links & contact
 
-- Discord: **vas7eel**
-- [Nexus Mods posts](https://www.nexusmods.com/battletech/mods/754?tab=posts)
-- [Reddit](https://www.reddit.com/user/vas7eel/)
+- 🌍 **This repo (source & releases):** [github.com/vas7eel/CombatLog](https://github.com/vas7eel/CombatLog)
+- 🎮 **Nexus Mods:** [battletech/mods/754](https://www.nexusmods.com/battletech/mods/754)
+- 💬 **Discord:** vas7eel
+- 🗨️ **Nexus posts** (bug reports & requests): [mods/754?tab=posts](https://www.nexusmods.com/battletech/mods/754?tab=posts)
+- 🔴 **Reddit:** [u/vas7eel](https://www.reddit.com/user/vas7eel/)
 
 ## License
 
