@@ -12,9 +12,8 @@ Works with **Vanilla, BTAU (BTA), BEXT (BEX), and RogueTech (RT)**.
 
 ## Download
 
-- **[Latest release](../../releases/latest)** — grab `CombatLog.zip`
-- Or download [`CombatLog.zip`](CombatLog.zip) directly from this repo
-- Also on [Nexus Mods](https://www.nexusmods.com/battletech/mods/754)
+- 📦 **[Download CombatLog.zip](CombatLog.zip)** — then see Installation below
+- 🎮 Also on [Nexus Mods](https://www.nexusmods.com/battletech/mods/754)
 
 ## Installation
 
