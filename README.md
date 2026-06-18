@@ -1,6 +1,6 @@
 # CombatLog
 
-**A BattleTech mod by Vas7eel** · v2.0.0
+**A BattleTech mod by Vas7eel** · v2.1.0
 
 CombatLog displays a real-time combat log with stats during battles — every hit
 with to-hit %, weapons fired, locations destroyed, pilot injuries, ejections, and
@@ -76,6 +76,15 @@ configuration, saved automatically to `CombatLog_prefs.json`.
 </details>
 
 ## Changelog
+
+### v2.1.0
+
+- **NEW:** Improved performance — log caching only rebuilds log lines when content changes, greatly improving performance and cutting down frame hiccups in heavy fights
+- **NEW:** "Show Enemy Initiative" toggle (under Show Initiative) to include or hide enemy units in the round initiative list
+- **NEW:** "Remember Sensor Info" toggle (RT, off by default) — the log keeps the best sensor read seen for each unit this mission
+- **improved:** only weapon-delivered heat (flamers etc) now counts toward "Heat Damage Dealt" and the Purify by Fire award; ammo-explosion and terrain heat are still shown but no longer inflate heat stats
+- **fix:** the resize grip is no longer hidden behind the buttons when the window is shrunk very small
+- **fix:** RogueTech sensor-gated unit names — an enemy's name is now revealed with your sensor lock, matching the target panel: `UNKNOWN MECH` → chassis (`UrbanMech`) → full variant (`UM-R60`), in both the log and initiative (2.0.0 gated weapon names and units were not fully correct)
 
 ### v2.0.0 — Major update with RT support
 
