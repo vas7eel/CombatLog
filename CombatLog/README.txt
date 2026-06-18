@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════
-  COMBATLOG MOD v2.0.0 - README
+  COMBATLOG MOD v2.1.0 - README
   A BattleTech mod by Vas7eel
 ═══════════════════════════════════════════════════════════
 
@@ -81,6 +81,25 @@ STATS VIEW
 
 CHANGELOG
 ---------
+ v2.1.0
+    - NEW: Improved performance — log caching only rebuilds log lines 
+      when content changes, greatly improving performance andcutting down 
+      frame hiccups in heavy fights
+    - NEW: "Show Enemy Initiative" toggle (under Show Initiative) to
+      include or hide enemy units in the round initiative list
+    - NEW: "Remember Sensor Info" toggle (RT, off by default) — the log
+      keeps the best sensor read seen for each unit this mission
+    - improved: only weapon-delivered heat (flamers etc) now counts
+      toward "Heat Damage Dealt" and the Purify by Fire award; ammo-
+      explosion and terrain heat are still shown but no longer inflate
+      heat stats
+    - fix: the resize grip is no longer hidden behind the buttons when
+      the window is shrunk very small
+    - fix: RogueTech sensor-gated UNIT NAMES — an enemy's name is now
+      revealed with your sensor lock, matching the target panel:
+      UNKNOWN MECH -> chassis ("UrbanMech") -> full variant ("UM-R60"),
+      in both the log and initiative (2.0.0 gated weapon names and units 
+      were not fully correct)
  v2.0.0 - Major update with RT support, new features and improvements:
     - NEW: RogueTech (RT) support — adds RT sensor-gated weapon names
       (UNKNOWN WEAPON -> WEAPON TYPE -> WEAPON DETAIL)
@@ -250,13 +269,13 @@ COMPATIBILITY
   RT:                 Latest
 
 
-BUGS OR FEATURE REQUESTS
-------------------------
-Contact vas7eel on discord
-OR post here
-https://www.nexusmods.com/battletech/mods/754?tab=posts
-or Reddit
-https://www.reddit.com/user/vas7eel/
+LINKS & CONTACT
+---------------
+GitHub:                     https://github.com/vas7eel/CombatLog
+Nexus Mods:                 https://www.nexusmods.com/battletech/mods/754
+Discord:                    vas7eel
+Bug reports / requests:     https://www.nexusmods.com/battletech/mods/754?tab=posts
+Reddit:                     https://www.reddit.com/user/vas7eel/
     
 
 SETTINGS (mod.json)
