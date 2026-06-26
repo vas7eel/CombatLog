@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════
-  COMBATLOG MOD v2.1.0 - README
+  COMBATLOG MOD v2.1.1 - README
   A BattleTech mod by Vas7eel
 ═══════════════════════════════════════════════════════════
 
@@ -81,6 +81,9 @@ STATS VIEW
 
 CHANGELOG
 ---------
+ v2.1.1
+    - fix: scrolling up with the mouse wheel after unlocking the log no
+      longer instantly re-locks and snaps back to the bottom
  v2.1.0
     - NEW: Improved performance — log caching only rebuilds log lines 
       when content changes, greatly improving performance andcutting down 

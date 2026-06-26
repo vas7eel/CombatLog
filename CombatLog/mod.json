@@ -1,7 +1,7 @@
 {
   "Name": "CombatLog",
   "Enabled": true,
-  "Version": "2.1.0",
+  "Version": "2.1.1",
   "Description": "Displays a combat log and stats overlay during BattleTech missions and an Argo log when back aboard the Argo",
   "Author": "Vas7eel",
   "Website": "",

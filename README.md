@@ -1,6 +1,6 @@
 # CombatLog
 
-**A BattleTech mod by Vas7eel** · v2.1.0
+**A BattleTech mod by Vas7eel** · v2.1.1
 
 CombatLog displays a real-time combat log with stats during battles — every hit
 with to-hit %, weapons fired, locations destroyed, pilot injuries, ejections, and
@@ -76,6 +76,10 @@ configuration, saved automatically to `CombatLog_prefs.json`.
 </details>
 
 ## Changelog
+
+### v2.1.1
+
+- **fix:** scrolling up with the mouse wheel after unlocking the log no longer instantly re-locks and snaps back to the bottom
 
 ### v2.1.0
 
