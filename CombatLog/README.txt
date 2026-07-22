@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════
-  COMBATLOG MOD v2.1.1 - README
+  COMBATLOG MOD v2.2.0 - README
   A BattleTech mod by Vas7eel
 ═══════════════════════════════════════════════════════════
 
@@ -81,6 +81,16 @@ STATS VIEW
 
 CHANGELOG
 ---------
+ v2.2.0
+    - NEW: "Export Log" button in PREFS — writes the combat log, mission
+      stats and the ArgoLog to a timestamped .txt file in
+      Mods/CombatLog/Logs/ (one file per export, nothing is overwritten)
+    - the exported stats keep the STATS panel's table layout — same
+      columns, awards and per-pilot breakdowns — so the file reads like
+      the in-game panel
+    - Note: CombatLog currently has a finite history of lines, so a very long 
+      mission may not export the full log, you may need to export multiple 
+      times. 
  v2.1.1
     - fix: scrolling up with the mouse wheel after unlocking the log no
       longer instantly re-locks and snaps back to the bottom

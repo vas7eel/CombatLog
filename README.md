@@ -1,6 +1,6 @@
 # CombatLog
 
-**A BattleTech mod by Vas7eel** · v2.1.1
+**A BattleTech mod by Vas7eel** · v2.2.0
 
 CombatLog displays a real-time combat log with stats during battles — every hit
 with to-hit %, weapons fired, locations destroyed, pilot injuries, ejections, and
@@ -76,6 +76,12 @@ configuration, saved automatically to `CombatLog_prefs.json`.
 </details>
 
 ## Changelog
+
+### v2.2.0
+
+- **NEW:** "Export Log" button in PREFS — writes the combat log, mission stats and the ArgoLog to a timestamped `.txt` in `Mods/CombatLog/Logs/` (one file per export, nothing is overwritten)
+- the exported stats keep the STATS panel's table layout — same columns, awards and per-pilot breakdowns — so the file reads like the in-game panel
+- **Note:** CombatLog currently has a finite history, so a very long mission may not export the full log — you may need to export multiple times
 
 ### v2.1.1
 
