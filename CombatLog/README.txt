@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════
-  COMBATLOG MOD v2.2.0 - README
+  COMBATLOG MOD v2.2.1 - README
   A BattleTech mod by Vas7eel
 ═══════════════════════════════════════════════════════════
 
@@ -81,6 +81,13 @@ STATS VIEW
 
 CHANGELOG
 ---------
+ v2.2.1
+    - NEW: "Show Ammo Count" toggle (PREFS, off by default) — appends
+      "[ammo: current/max]" to player hit lines
+    - fix: TAG, NARC beacons etc, are now logged properly
+    - fix: BTA salvage should be accurate now
+    - fix: an enemy mech could occasionally show the wrong chassis name
+      under certain conditions, that bug should be squashed
  v2.2.0
     - NEW: "Export Log" button in PREFS — writes the combat log, mission
       stats and the ArgoLog to a timestamped .txt file in

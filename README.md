@@ -1,6 +1,6 @@
 # CombatLog
 
-**A BattleTech mod by Vas7eel** · v2.2.0
+**A BattleTech mod by Vas7eel** · v2.2.1
 
 CombatLog displays a real-time combat log with stats during battles — every hit
 with to-hit %, weapons fired, locations destroyed, pilot injuries, ejections, and
@@ -76,6 +76,13 @@ configuration, saved automatically to `CombatLog_prefs.json`.
 </details>
 
 ## Changelog
+
+### v2.2.1
+
+- **NEW:** "Show Ammo Count" toggle (PREFS, off by default) — appends `[ammo: current/max]` to player hit lines
+- **fix:** TAG, NARC beacons etc, are now logged properly
+- **fix:** BTA salvage should be accurate now
+- **fix:** an enemy mech could occasionally show the wrong chassis name under certain conditions, that bug should be squashed
 
 ### v2.2.0
 
