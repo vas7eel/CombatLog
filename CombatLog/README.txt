@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════
-  COMBATLOG MOD v2.2.1 - README
+  COMBATLOG MOD v2.2.2 - README
   A BattleTech mod by Vas7eel
 ═══════════════════════════════════════════════════════════
 
@@ -81,6 +81,20 @@ STATS VIEW
 
 CHANGELOG
 ---------
+ v2.2.2
+    - NEW: "Ammo tag: once per weapon" toggle (PREFS, under Show Ammo
+      Count) — when a weapon's damage spreads across multiple locations
+      in one attack, shows "[ammo: N]" once (on the weapon's last line)
+      instead of repeating it on every location line
+    - fix: multi-kill attacks (splash/AoE, multi-target) now log
+      every kill, injury and overheat etc line to the unit it actually
+      happened to. Previously, AoE attacks that cause massive damage
+      to many units would be hard to track in the log, as most of the 
+      none damge lines would get dumped after the last unit processed. 
+      A lot of was lost, now it should be much easier to follow the chain
+      of events in a big attack.
+    - fix: scrolling the mouse wheel outside the log/ARGO window no
+      longer flips the auto-follow lock
  v2.2.1
     - NEW: "Show Ammo Count" toggle (PREFS, off by default) — appends
       "[ammo: current/max]" to player hit lines
@@ -294,6 +308,7 @@ LINKS & CONTACT
 GitHub:                     https://github.com/vas7eel/CombatLog
 Nexus Mods:                 https://www.nexusmods.com/battletech/mods/754
 Discord:                    vas7eel
+Discord CombatLog Forum:    https://discord.com/channels/587764595888881670/1514687105723400372
 Bug reports / requests:     https://www.nexusmods.com/battletech/mods/754?tab=posts
 Reddit:                     https://www.reddit.com/user/vas7eel/
     

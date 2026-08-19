@@ -1,6 +1,6 @@
 # CombatLog
 
-**A BattleTech mod by Vas7eel** · v2.2.1
+**A BattleTech mod by Vas7eel** · v2.2.2
 
 CombatLog displays a real-time combat log with stats during battles — every hit
 with to-hit %, weapons fired, locations destroyed, pilot injuries, ejections, and
@@ -76,6 +76,12 @@ configuration, saved automatically to `CombatLog_prefs.json`.
 </details>
 
 ## Changelog
+
+### v2.2.2
+
+- **NEW:** "Ammo tag: once per weapon" toggle (PREFS, under Show Ammo Count) — when a weapon's damage spreads across multiple locations in one attack, shows `[ammo: N]` once (on the weapon's last line) instead of repeating it on every location line
+- **fix:** multi-kill attacks (splash/AoE, multi-target) now log every kill, injury and overheat line to the unit it actually happened to. Previously, AoE attacks that cause massive damage to many units would be hard to track in the log, as most of the non-damage lines would get dumped after the last unit processed, losing a lot of detail — it should now be much easier to follow the chain of events in a big attack
+- **fix:** scrolling the mouse wheel outside the log/ARGO window no longer flips the auto-follow lock
 
 ### v2.2.1
 
